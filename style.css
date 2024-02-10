@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --bg-col: #000; 
+    --sebg-col: #B0D9B1;
+    --fon-col: #D44A47;
+    --sefon-col:  #F2F2f2;
+}
+body{
+    background-color: var(--bg-col);
+    color: var(--sefon-col);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+nav h1{
+    display: inline;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 30px;
+    font-size: large;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--sefon-col);
+}
+nav ul li a:hover{
+    color:  var(--fon-col);
+    transition: color 0.3s ease;
+}
+
+#home{
+    width: 100%;
+    padding: 100px;
+    margin-top: 5%;
+}
+.data{
+    text-align: center;
+    padding: 50px;
+}
+.data h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+.data h1 span{
+    color: var(--sefon-col);
+    text-shadow: 4px 4px 8px var(--sefon-col);
+}
+.data p{
+    padding: 15px 0;
+    text-transform: capitalize;
+    text-align: justify;
+}
